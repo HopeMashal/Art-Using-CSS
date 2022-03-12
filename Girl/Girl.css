@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.Container{
+  width: 450px;
+  height: 450px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(192, 192, 192);
+  z-index: -2;
+}
+.Head{
+  width: 200px;
+  height: 300px;
+  background-color: beige;
+  position: relative;
+  top: 50px;
+  left: 125px;
+  border-radius: 100px 100px 50% 50%;
+  border: 2px solid bisque;
+}
+
+.EarRight{
+  background-color: beige;
+  width:30px;
+  height: 50px;
+  border: 2px solid bisque;
+  position: absolute;
+  border-radius: 50%;
+  border-left: none;
+  top:150px;
+  left: 195px;
+  transform: rotate(10deg);
+}
+.EarLeft{
+  background-color: beige;
+  width:30px;
+  height: 50px;
+  border: 2px solid bisque;
+  position: absolute;
+  border-radius: 50%;
+  border-right: none;
+  top:150px;
+  left: -27px;
+  transform: rotate(-10deg);
+}
+
+.Neck{
+  background-color: beige;
+  width:70px;
+  height: 80px;
+  border: 2px solid bisque;
+  border-bottom: none;
+  position: relative;
+  left:190px;
+  z-index: -1;
+}
+.Body{
+  background-color: beige;
+  width:200px;
+  height: 30px;
+  border: 2px solid bisque;
+  position: relative;
+  left:125px;
+  top: -10px;
+  z-index: -2;
+  border-radius: 50%;
+}
