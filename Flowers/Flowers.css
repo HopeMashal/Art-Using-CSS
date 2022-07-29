@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.Container{
+  width: 450px;
+  height: 450px;
+  background-color: rgb(55, 55, 55);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(221, 221, 221);
+  z-index: -2;
+}
+.FlowerContainer{
+
+}
+.FlowerLeaves{
+
+}
+.FlowerLeave{
+  background: white;
+  width: 100px;
+  height: 100px;
+  clip-path: ellipse(15% 50% at 50% 50%);
+  position: relative;
+}
+.FlowerLeave::before{
+  content:'';
+  position: absolute;
+  background-color: rgb(55, 55, 55);
+  width: 30px;
+  height: 30px;
+  top: 0px;
+  left:35px; 
+  border-radius: 100% 0% 89% 11% / 89% 0% 100% 11% ;
+  transform: rotate(135deg);
+}
+.FlowerCenter{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(234, 234, 177);
+  position: relative;
+}
+.FlowerCenterInner{
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: rgb(206, 206, 129);
+  position: absolute;
+}
+.FlowerCenterInner:nth-child(1){
+  top:5px;
+  left: 5px;
+}
+.FlowerCenterInner:nth-child(2){
+  top:10px;
+  left: 3px;
+}
+.FlowerCenterInner:nth-child(3){
+  top:15px;
+  left: 3px;
+}
+.FlowerCenterInner:nth-child(4){
+  top:20px;
+  left: 5px;
+}
+.Leaves{
+
+}
+.Leave{
+  border-radius: 100% 0% 89% 11% / 89% 0% 100% 11% ;
+  background-color: rgb(27, 73, 27);
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.LeaveInner{
+  width: 60px;
+  height: 20px;
+  position: absolute;
+  border-top: rgb(94, 113, 94) 3px solid;
+  border-radius: 100% 30% 0 0;
+  transform: rotate(145deg);
+  bottom: 14px;
+  left: -8.5px;
+}
