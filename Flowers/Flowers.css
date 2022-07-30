@@ -18,10 +18,13 @@ body{
   z-index: -2;
 }
 .FlowerContainer{
-
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: aqua;
 }
 .FlowerLeaves{
-
+  position: absolute;
 }
 .FlowerLeave{
   background: white;
@@ -41,6 +44,40 @@ body{
   border-radius: 100% 0% 89% 11% / 89% 0% 100% 11% ;
   transform: rotate(135deg);
 }
+.FlowerLeave_1{
+  transform: rotate(30deg);
+  top:16px;
+  left: 105px;
+}
+.FlowerLeave_2{
+  transform: rotate(82deg);
+  top:-33px;
+  left: 141px;
+}
+.FlowerLeave_3{
+  transform: rotate(134deg);
+  top:-76px;
+  left: 120px;
+}
+.FlowerLeave_4{
+  transform: rotate(186deg);
+  top:-120px;
+  left: 100px;
+}
+.FlowerLeave_5{
+  transform: rotate(238deg);
+}
+.FlowerLeave_6{
+  transform: rotate(290deg);
+}
+.FlowerLeave_7{
+  transform: rotate(342deg);
+}
+.FlowersCenter{
+  position: absolute;
+  top: 110px;
+  left:110px;
+}
 .FlowerCenter{
   width: 30px;
   height: 30px;
@@ -55,24 +92,120 @@ body{
   background-color: rgb(206, 206, 129);
   position: absolute;
 }
-.FlowerCenterInner:nth-child(1){
+.FlowerCenterInner_1{
   top:5px;
   left: 5px;
 }
-.FlowerCenterInner:nth-child(2){
+.FlowerCenterInner_2{
   top:10px;
   left: 3px;
 }
-.FlowerCenterInner:nth-child(3){
+.FlowerCenterInner_3{
   top:15px;
-  left: 3px;
+  left: 2px;
 }
-.FlowerCenterInner:nth-child(4){
+.FlowerCenterInner_4{
   top:20px;
-  left: 5px;
+  left: 4px;
+}
+.FlowerCenterInner_5{
+  top:24px;
+  left: 7px;
+}
+.FlowerCenterInner_6{
+  top:3px;
+  left: 9px;
+}
+.FlowerCenterInner_7{
+  top:8px;
+  left: 7px;
+}
+.FlowerCenterInner_8{
+  top:13px;
+  left: 7px;
+}
+.FlowerCenterInner_9{
+  top:18px;
+  left: 9px;
+}
+.FlowerCenterInner_10{
+  top:23px;
+  left: 11px;
+}
+.FlowerCenterInner_11{
+  top:26px;
+  left: 13px;
+}
+.FlowerCenterInner_12{
+  top:2px;
+  left: 14px;
+}
+.FlowerCenterInner_13{
+  top:7px;
+  left: 12px;
+}
+.FlowerCenterInner_14{
+  top:12px;
+  left: 11px;
+}
+.FlowerCenterInner_15{
+  top:17px;
+  left: 13px;
+}
+.FlowerCenterInner_16{
+  top:21px;
+  left: 16px;
+}
+.FlowerCenterInner_17{
+  top:25px;
+  left: 18px;
+}
+.FlowerCenterInner_18{
+  top:3px;
+  left: 18px;
+}
+.FlowerCenterInner_19{
+  top:8px;
+  left: 16px;
+}
+.FlowerCenterInner_20{
+  top:13px;
+  left: 16px;
+}
+.FlowerCenterInner_21{
+  top:18px;
+  left: 19px;
+}
+.FlowerCenterInner_22{
+  top:23px;
+  left: 21px;
+}
+.FlowerCenterInner_23{
+  top:5px;
+  left: 22px;
+}
+.FlowerCenterInner_24{
+  top:9px;
+  left: 20px;
+}
+.FlowerCenterInner_25{
+  top:14px;
+  left: 20px;
+}
+.FlowerCenterInner_26{
+  top:19px;
+  left: 24px;
+}
+.FlowerCenterInner_27{
+  top:9px;
+  left: 24px;
+}
+.FlowerCenterInner_28{
+  top:14px;
+  left: 25px;
 }
 .Leaves{
-
+  position: absolute;
 }
 .Leave{
   border-radius: 100% 0% 89% 11% / 89% 0% 100% 11% ;
