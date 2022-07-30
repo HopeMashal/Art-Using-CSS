@@ -33,7 +33,7 @@ body{
   background: white;
   width: 100px;
   height: 100px;
-  clip-path: ellipse(15% 50% at 50% 50%);
+  clip-path: ellipse(19% 50% at 50% 50%);
   position: relative;
 }
 .FlowerLeave::before{
@@ -42,7 +42,7 @@ body{
   background-color: rgb(55, 55, 55);
   width: 30px;
   height: 30px;
-  top: 0px;
+  top: -10px;
   left:35px; 
   border-radius: 100% 0% 89% 11% / 89% 0% 100% 11% ;
   transform: rotate(135deg);
@@ -218,7 +218,7 @@ body{
 }
 .Leave{
   border-radius: 100% 0% 89% 11% / 89% 0% 100% 11% ;
-  background-color: rgb(27, 73, 27);
+  background-color: rgb(31, 84, 31);
   width: 50px;
   height: 50px;
   position: relative;
@@ -241,9 +241,77 @@ body{
   width: 60px;
   height: 20px;
   position: absolute;
-  border-top: rgb(94, 113, 94) 3px solid;
+  border-top: rgb(82, 125, 82) 3px solid;
   border-radius: 100% 30% 0 0;
   transform: rotate(145deg);
   bottom: 14px;
   left: -8.5px;
+}
+.FlowerContainer:nth-child(2){
+  transform: scale(0.3);
+  top:-130px;
+  left:-30px;
+}
+.FlowerContainer:nth-child(3){
+  transform: scale(0.3);
+  top:-530px;
+  left:110px;
+}
+.FlowerContainer:nth-child(4){
+  transform: scale(0.3);
+  top:-612px;
+  left:220px;
+}
+.FlowerContainer:nth-child(5){
+  transform: scale(0.3);
+  top:-780px;
+  left:152px;
+}
+.SpLeaves_1{
+  position: relative;
+  top:-1333px;
+  left: 285px;
+  transform: rotate(-35deg);
+}
+.SpLeave{
+  position: relative;
+  border-radius: 88% 12% 88% 12% / 90% 0% 100% 10%  ;
+  background-color: rgb(31, 84, 31);
+  width: 80px;
+  height: 80px;
+}
+.SpLeave_1{
+  transform: rotate(0deg);
+}
+.SpLeave_2{
+  transform: rotate(80deg);
+  left: 6px;
+}
+.SpLeaveInner{
+  width: 60px;
+  height: 20px;
+  position: absolute;
+  border-top: rgb(82, 125, 82) 3px solid;
+  border-radius: 100% 30% 0 0;
+  transform: rotate(145deg);
+  bottom: 16px;
+  left: -8.5px;
+}
+.SpLeaves_2{
+  position: relative;
+  top:-1545px;
+  left: -235px;
+  transform: rotate(-125deg);
+}
+.SpLeaves_3{
+  position: relative;
+  top:-1193px;
+  left: -285px;
+  transform: rotate(-215deg);
+}
+.SpLeaves_4{
+  position: relative;
+  top:-1352px;
+  left: 290px;
+  transform: rotate(35deg);
 }
