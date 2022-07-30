@@ -21,10 +21,13 @@ body{
   position: relative;
   width: 250px;
   height: 250px;
-  background-color: aqua;
+  top: 100px;
+  left: 100px;
 }
 .FlowerLeaves{
   position: absolute;
+  width: 250px;
+  height: 250px;
 }
 .FlowerLeave{
   background: white;
@@ -51,27 +54,33 @@ body{
 }
 .FlowerLeave_2{
   transform: rotate(82deg);
-  top:-33px;
-  left: 141px;
+  top:-37px;
+  left: 140px;
 }
 .FlowerLeave_3{
   transform: rotate(134deg);
-  top:-76px;
-  left: 120px;
+  top:-81px;
+  left: 125px;
 }
 .FlowerLeave_4{
-  transform: rotate(186deg);
-  top:-120px;
-  left: 100px;
+  transform: rotate(183deg);
+  top:-158px;
+  left: 74px;
 }
 .FlowerLeave_5{
   transform: rotate(238deg);
+  top:-286px;
+  left: 21.5px;
 }
 .FlowerLeave_6{
   transform: rotate(290deg);
+  top:-443px;
+  left: 11.5px;
 }
 .FlowerLeave_7{
   transform: rotate(342deg);
+  top:-586.5px;
+  left: 50px;
 }
 .FlowersCenter{
   position: absolute;
@@ -213,6 +222,20 @@ body{
   width: 50px;
   height: 50px;
   position: relative;
+}
+.Leave_1{
+  top:45px;
+  left: 170px;
+}
+.Leave_2{
+  top:129px;
+  left: 55px;
+  transform: rotate(180deg);
+}
+.Leave_3{
+  top:-60px;
+  left: 30px;
+  transform: rotate(260deg);
 }
 .LeaveInner{
   width: 60px;
